@@ -5,3 +5,9 @@ CloudForge is an Internal Developer Platform (IDP) that automates application de
 ## Architecture Decision #1
 
 CloudForge will initially start as a monolith because it is the simplest architecture that solves our current problem. Microservices will only be considered when real business and operational problems justify the additional complexity and trade-offs.
+
+## Product Principles
+
+- Architecture follows business needs.
+- Solve today's problems with today's complexity. Add complexity only when new business problems justify it.
+- Projects belong to the organization, not an individual developer. If a developer leaves, the projects remain available and ownership can be transferred.
