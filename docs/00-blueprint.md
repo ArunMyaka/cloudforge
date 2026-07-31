@@ -26,3 +26,20 @@ CloudForge will initially start as a monolith because it is the simplest archite
 - One Developer can own many Projects.
 - One Project can have many Deployments.
 - One Deployment can generate many Logs.
+## Vision
+
+Enable developers to focus on building software instead of infrastructure.
+
+## Mission
+
+Automate the software delivery lifecycle through a single, consistent platform.
+
+## North Star
+
+Reduce developer effort and cognitive load through automation.
+
+## Product Philosophy
+
+Every feature in CloudForge must reduce manual work for developers and automate part of the software delivery lifecycle.
+
+If a feature does not contribute to this goal, it should not be included in CloudForge.
