@@ -11,3 +11,18 @@ CloudForge will initially start as a monolith because it is the simplest archite
 - Architecture follows business needs.
 - Solve today's problems with today's complexity. Add complexity only when new business problems justify it.
 - Projects belong to the organization, not an individual developer. If a developer leaves, the projects remain available and ownership can be transferred.
+
+## CloudForge v1 Data Model (Draft)
+
+### Tables
+
+- Developers
+- Projects
+- Deployments
+- Logs
+
+### Relationships
+
+- One Developer can own many Projects.
+- One Project can have many Deployments.
+- One Deployment can generate many Logs.
